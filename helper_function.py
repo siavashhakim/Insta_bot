@@ -9,7 +9,7 @@ class LoginPage:
         password_input = self.browser.find_element_by_css_selector("input[name='password']")
         username_input.send_keys(username)
         password_input.send_keys(password)
-        login_button = browser.find_element_by_xpath("//button[@type='submit']")
+        login_button = self.browser.find_element_by_xpath("//button[@type='submit']")
         login_button.click()
         sleep(5)
 

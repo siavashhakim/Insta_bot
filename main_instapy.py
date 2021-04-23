@@ -11,11 +11,13 @@ session.set_dont_like(["naked", "nsfw"])
 # session.set_do_follow(True, percentage=50)
 session.set_do_comment(True, percentage=50)
 session.set_comments(["Cute! :heart_eyes:", "lovely! :heart_eyes:", "Beautiful :heart_eyes:"])
-# session.like_by_tags(['huskycute',"puppy", "husky", "cutepuppy","huskylife","huskylovers"
-#                          ,"huskygram",'huskypage','huskycute','huskyphotography','huskyproblems'], amount=10)
+session.like_by_tags(['huskycute',"puppy", "husky", "cutepuppy","huskylife","huskylovers"
+                         ,"huskygram",'huskypage','huskycute','huskyphotography','huskyproblems'], amount=10)
 # session.like_by_tags(["huskylife","husky"
 #                          ,"huskygram",'huskypage','huskycute','huskyphotography','huskyproblems'], amount=10)
-session.like_by_tags(["huskylife","huskylovers"
-                         ,"huskygram",'huskypage','huskycute','huskyphotography','huskyproblems'], amount=10)
+# session.like_by_tags(["huskylife","huskylovers"
+#                          ,"huskygram",'huskypage','huskycute','huskyphotography','huskyproblems'], amount=10)
 # output = session.like_by_tags(['whiskey'], amount=10)
 session.end()
+
+
